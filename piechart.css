@@ -1,0 +1,54 @@
+body{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#marks-chart{
+    display: flex;
+    align-items: center;
+}
+
+#marks-pie-chart{
+    background: conic-gradient(blue 0.00% 6.08%, brown 6.08% 15.98%, yellow 15.98% 25.40%, pink
+    25.40% 60%, red 60% 80%, orange 80% 100% );
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+#marks{
+    margin-left: 20px;
+    background-color: white;
+    padding: 5px;
+}
+.entry{
+    display: flex;
+    align-items: center;
+}
+.color-subject{
+    height: 10px;
+    width: 10px;
+}
+.text{
+    margin-left: 5px;
+}
+#color-blue{
+    background-color: blue;
+}
+#color-brown{
+    background-color: brown;
+}
+#color-yellow{
+    background-color: yellow;
+}
+#color-pink{
+    background-color: pink;
+}
+#color-red{
+    background-color: red;
+}
+#color-orange{
+    background-color: orange;
+}
